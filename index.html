@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개발자겸 강사 서민구</title>
+
+  <meta property="og:title" content="개발자겸 강사 서민구">
+  <meta property="og:site_name" content="개발자겸 강사 서민구">
+  <meta name="description" content="누구나 쉽게 '코딩'을 시작하고 이를 도구로 사용할 수 있도록 돕고 영감을 주는 사람">
+  <meta property="og:description" content="누구나 쉽게 '코딩'을 시작하고 이를 도구로 사용할 수 있도록 돕고 영감을 주는 사람">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://profile.codro.it/assets/profile.jpg">
+
+
+
+  <!-- 직접 작성한 CSS 로드 -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- 상단 네비게이션바 (Oopy 테마의 상단바) -->
+  <header class="top-nav">
+    <div class="nav-content">
+      <div class="title">서민구_프로필</div>
+      <div class="nav-actions">
+        <button class="btn-share" onclick="sharePage()" title="Share" aria-label="Share">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" style="margin-right: 4px;">
+            <path
+              d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z" />
+          </svg>
+          공유
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- 커버 이미지 -->
+  <div class="page-cover">
+    <img src="assets/cover.jpg" alt="Cover Image">
+  </div>
+
+  <main class="page-content width padding">
+    <!-- 메인 제목 -->
+    <h1 class="page-title">서민구_프로필</h1>
+
+    <!-- 슬로건 문구 -->
+    <h2 class="main-quote">"누구나 쉽게 ‘코딩’을 시작하고 이를 도구로 사용할 수 있도록 돕고 영감을 주는 사람"</h2>
+
+    <!-- 본문 다단 레이아웃 영역 (2컬럼) -->
+    <div class="columns-container">
+
+      <!-- 왼쪽 컬럼 (프로필 + 연락처) -->
+      <div class="column-left">
+        <img class="profile-img" src="assets/profile.jpg" alt="서민구 프로필 사진">
+
+        <h2 class="name-title">서민구</h2>
+
+        <!-- 연락처 Callout 박스 목록 -->
+        <div class="callout">
+          <div class="callout-icon"><img src="assets/email.png" alt="Email icon"></div>
+          <div class="callout-content"><a href="mailto:codro.ceo@gmail.com">codro.ceo@gmail.com</a></div>
+        </div>
+
+        <div class="callout">
+          <div class="callout-icon"><img src="assets/insta.webp" alt="Instagram icon"></div>
+          <div class="callout-content"><a href="https://www.instagram.com/codro.it/" target="_blank">@codro.it</a></div>
+        </div>
+
+        <div class="callout">
+          <div class="callout-icon"><img src="assets/web.png" alt="Website icon"></div>
+          <div class="callout-content"><a href="http://codroworld.com" target="_blank">codroworld.com</a></div>
+        </div>
+      </div>
+
+      <!-- 오른쪽 컬럼 (자기소개 + 강의 분야) -->
+      <div class="column-right">
+        <!-- 핵심 하이라이트 문구 -->
+        <h3 class="highlight-title">
+          <span class="hl-purple">개발자</span>겸 <span class="hl-purple">강사</span> <br>
+          서민구입니다.
+        </h3>
+
+        <!-- 인용구 형태의 설명 -->
+        <div class="quote-block">
+          15년간 개발자로, 7년간 IT 강사로 활동하며, <br>
+          <strong>비전공자부터 실무 개발자까지</strong> <br>
+          누구나 효과적으로 코딩을 배우고 <br>
+          활용할 수 있도록 돕고 있습니다.
+        </div>
+
+        <h3 class="subsection-title">강의 분야</h3>
+        <p>웹, 백엔드 개발</p>
+        <p>데이터 분석</p>
+        <p>Java, Python 프로그래밍</p>
+        <p>DataBase, SQL</p>
+        <p>AI, Machine Learning</p>
+        <p>시스템</p>
+      </div>
+    </div> <!-- .columns-container 종료 -->
+
+    <!-- 가로 구분선 -->
+    <hr class="divider">
+
+    <h3 class="section-title">💼 Career | 경력</h3>
+
+    <h4 class="sub-section-title">🔹 개발 경력 (15년)</h4>
+    <ul class="list">
+      <li>✔ <strong>다양한 기업에서 웹 개발, 백엔드 시스템 구축, 소프트웨어 아키텍처 설계 경험</strong></li>
+      <li>✔ Java, Spring, Python 기반 프로젝트 다수 수행</li>
+      <li>✔ 기업 내부 시스템 개발 및 운영 경험</li>
+      <li>✔ 개발팀장 및 PM 업무 경험</li>
+    </ul>
+
+    <h4 class="sub-section-title">🔹 강의 경력 (7년)</h4>
+    <ul class="list">
+      <li>🎤 현) <strong>신한DS SW 아카데미 강사</strong></li>
+      <li>🎤 Java 풀스택 개발 강의</li>
+      <li>🎤 AI / Machine Learning</li>
+      <li>🎤 기업 및 기관 재직자 대상 프로그래밍, DB 강의</li>
+      <li>🎤 기업 대상 영상 강의</li>
+      <li>🎤 한양대학교 ERICA 겸임교수</li>
+    </ul>
+
+    <hr class="divider">
+
+    <h3 class="section-title">🎓 Education | 학력</h3>
+    <ul class="list">
+      <li>🎓 소프트웨어공학 석사 (<a
+          href="https://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=0b956a1ed7f0f0b3ffe0bdc3ef48d419"
+          target="_blank" class="inline-link">학위논문</a>)</li>
+      <li>🎓 디지털정보학 학사</li>
+      <li>🎓 통계데이터과학 학사</li>
+    </ul>
+
+    <hr class="divider">
+
+    <h3 class="section-title">🏆 Certifications | 자격증</h3>
+    <ul class="list">
+      <li>🏅 직업훈련교사 정보기술개발 2급</li>
+      <li>🏅 직업훈련교사 정보기술 전략계획 3급</li>
+      <li>🏅 직업훈련교사 인공지능 3급</li>
+      <li>🏅 정보처리기사</li>
+      <li>🏅 정보보안기사</li>
+      <li>🏅 빅데이터분석기사</li>
+      <li>🏅 리눅스마스터 1,2급</li>
+      <li>🏅 SQLD</li>
+      <li>🏅 ADsP</li>
+    </ul>
+
+    <hr class="divider">
+
+    <h3 class="section-title">📚 Books | 저서</h3>
+    <ul class="list">
+      <li>📖 <strong>《실전 예제로 배우는 자바 프로그래밍》</strong> (엠제이씨북스, 2020)</li>
+    </ul>
+
+    <hr class="divider">
+
+    <h3 class="section-title">📩 <strong>강의 및 협업 문의 환영!</strong></h3>
+    <p>프로그래밍 교육 및 강의, 개발 의뢰가 필요하시다면 언제든지 연락 주세요.</p>
+  </main>
+
+  <script>
+    function sharePage() {
+      if (navigator.share) {
+        navigator.share({
+          title: '개발자겸 강사 서민구',
+          text: '누구나 쉽게 코딩을 시작하고 이를 도구로 사용할 수 있도록 돕고 영감을 주는 사람',
+          url: window.location.href
+        }).then(() => {
+          console.log('Successfully shared');
+        }).catch((error) => {
+          console.error('Error sharing', error);
+        });
+      } else {
+        alert('이 브라우저에서는 공유 기능을 지원하지 않습니다. 브라우저의 URL을 복사해주세요!');
+      }
+    }
+  </script>
+</body>
+
+</html>
