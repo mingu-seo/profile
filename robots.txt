@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://profile.codro.it/sitemap.xml

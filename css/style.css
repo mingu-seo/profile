@@ -86,6 +86,8 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
 }
 
 .nav-actions {
@@ -336,9 +338,44 @@ p {
   margin-bottom: 4px;
 }
 
+/* Teaching fields list */
+.teaching-fields {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.teaching-fields li {
+  margin-bottom: 4px;
+}
+
+/* Contact address reset */
+.contact-info {
+  font-style: normal;
+}
+
+/* Quote block semantic */
+.quote-block p {
+  margin: 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 24px 16px;
+  border-top: 1px solid rgba(55, 53, 47, 0.09);
+  margin-top: 2em;
+}
+
+.footer-text {
+  font-size: 13px;
+  color: rgba(55, 53, 47, 0.5);
+  margin: 0;
+}
+
 /* Footer padding addition to give a spacious end */
 main.page-content::after {
   content: "";
   display: block;
-  height: 50px; /* 푸터 여백 보충 */
+  height: 50px;
 }
