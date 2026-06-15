@@ -72,6 +72,6 @@
 
 [![Email](https://img.shields.io/badge/Email-codro.ceo@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:codro.ceo@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-@codro.it-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://www.instagram.com/codro.it/)
-[![Website](https://img.shields.io/badge/Website-codroworld.com-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](http://codroworld.com)
+[![Website](https://img.shields.io/badge/Website-blog.codro.it-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://blog.codro.it/)
 
 > 프로그래밍 교육 및 강의, 개발 의뢰가 필요하시다면 언제든지 연락 주세요.
